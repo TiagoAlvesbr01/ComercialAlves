@@ -1,0 +1,131 @@
+header {
+    align-items: center;
+    justify-content: space-between;
+    height: 265px;
+}
+header > div > a {
+    color: white;
+}
+#carousel-inner {
+    width: 80%;
+}
+.emoji {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+.emoji > a {
+    text-decoration: none;
+}
+header > img {
+    width: 150px;
+    display: inline-block;
+}
+#um { /*Div do logo*/
+    background-color: rgba(35, 166, 226, 0.616);
+}
+form input, form button {
+    font-size: 1.2em;
+}
+input { /*Lacuna do formulario*/
+    height: 35px;
+    margin-bottom: 10px;
+}
+button { /*Botao do formulario*/
+    background-color: white;
+    border: white;
+    height: 40px;
+    cursor: pointer;
+    margin: 0%;
+}
+.nav {
+    display: inline-block;
+}
+.nav > a {
+    
+    border-radius: 10px;
+    text-decoration: none;
+}
+.nav > img {
+    width: 50px;
+}
+body {
+    margin: auto;
+    text-align: center;
+    background-color: rgba(174, 174, 236, 0.356);
+}
+
+#categoriasnav { /*HOME-PROMOÇOES*/
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 50px;
+    display: inline-block;
+}
+#categoriasnav > a {
+    text-decoration: none;
+}
+#categoriasnav a:hover {
+    background-color: rgb(228, 129, 129);
+}
+#categorias { /*Alimenticios, Bomboniere, Calcados, etc.*/
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+#direita {
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 50px;
+    position: relative;
+    position: absolute;
+    
+}
+#direita:hover {
+    background-color: rgba(35, 166, 226, 0.616)
+}
+img {
+    border-radius: 50px;
+    width: 150px;
+}
+#categorias p:hover {
+    border: 10px rgb(219, 43, 43);
+    background-color: rgb(228, 129, 129);
+    border-radius: 5px;
+
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#categorias {
+    
+    border-radius: 10px;
+}
+main {
+    padding: 0px;
+    margin: 0px;
+    
+    width: 90%;
+    border-radius: 3px;
+    margin: auto;
+}
+section > div {
+    
+    background-color: rgb(131, 131, 248);
+    display: inline-block;
+    border: 10px;
+    padding: 10px;
+    margin-right: 100px;
+    border-radius: 10px;
+    width: 150px;
+    height: 250px;
+}
+#bomdia {
+    width: 90%;
+    height: 350px;
+    border-radius: 30px;
+
+}
+
+
