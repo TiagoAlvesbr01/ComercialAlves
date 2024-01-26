@@ -1,0 +1,19 @@
+h2 {
+    text-align: center;
+    background-color: rgb(81, 81, 107);
+    color: white;
+    border-radius: 10px;
+    
+}
+.box {
+    background-color: lightgray;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: rgb(0, 162, 255);
+}
