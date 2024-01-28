@@ -158,6 +158,7 @@ header {
 }
 
 .feed {
+    margin:20px;
     background-color: white;
     border-radius: 10px;
     width: 100%;
@@ -169,18 +170,33 @@ header {
     justify-content: space-between;
 }
 
-.feed-text span {
-    color:black;
+.feed-text {
+    display: flex;
 }
 
-.feed-text > svg {
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    background-color: #73b4ff;
-    color:  #73b4ff;
+.feed-text span {
+    color:black;
+    display: inline-block;
+    margin: 8px;
+}
+
+.feed-text .circle-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #c3dfff;
+    position: relative;
+}
+
+.feed-text > svg {  
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(50%, 50%);
+    font-size: 18px;
+    color: #73b4ff;
 }
 
 .feed-time {
-    color: #444
+    color: #444;
 }
