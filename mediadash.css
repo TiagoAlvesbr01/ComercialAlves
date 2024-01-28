@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 280px) and (max-width:500px){
+    
+    .info-header {
+        width: 10%;
+    }
+
+    .sidebar {
+        width: 50%;
+    }
+
+    .titulo-secao {
+        width: 50%;
+    }
+
+    .box-info {
+        width: 60%;
+    }
+
+    div > h3 {
+        width: 30%;
+    }
+
+    div > p {
+        width: 10%;
+    }
+}
