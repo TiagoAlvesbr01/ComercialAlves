@@ -146,6 +146,7 @@ header {
     background-color: rgb(245,245,245);
     padding: 20px;
     display: block;
+    box-shadow: 10px;
 }
 
 .titulo-secao {
@@ -173,14 +174,15 @@ header {
 }
 
 .box-info {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
+    width: 23%;
+    margin-top: 10px;
+    display: inline-block;
     justify-content: space-between;
+    padding: 20px;
 }
 
-.box-info > i  {
-    padding: 10px;
+.box-info:hover {
+ color: #333;
 }
 
 .box-info-single {
