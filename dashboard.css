@@ -28,6 +28,7 @@ header {
 
 .icons-header {
     margin-top:40px;
+    padding: 10px;
 }
 
 .icons-header  svg {
@@ -38,9 +39,18 @@ header {
     opacity: 0.7;
 }
 
-.info-header {
+.info-header   {
     color:white;
     display: flex;
+}
+
+.info-header > a {
+    padding: 10px;
+    color: white;
+}
+
+.info-header > a:hover {
+    opacity: 0.7
 }
 
 .info-header > img {
@@ -54,7 +64,24 @@ header {
     margin:0 10px;
 }
 
+.info-header2 {
+    cursor: pointer;
+    
+}
 
+.info-header2 img:hover {
+    opacity: 0.7
+}
+
+.info-header2 > i {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.info-header2 > i:hover {
+    opacity: 0.7
+}
 
 .main {
     display: flex;
@@ -92,6 +119,14 @@ header {
     color: #444;
 }
 
+.sidebar > h3 > i {
+    padding: 10px;
+}
+
+.sidebar > a > i {
+    padding: 10px;
+}
+
 .sidebar > a > svg {
     color: #444;
 }
@@ -110,6 +145,7 @@ header {
     width: 80%;
     background-color: rgb(245,245,245);
     padding: 20px;
+    display: block;
 }
 
 .titulo-secao {
@@ -141,6 +177,10 @@ header {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.box-info > i  {
+    padding: 10px;
 }
 
 .box-info-single {

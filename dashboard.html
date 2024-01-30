@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="dashboard.css">
     <link rel="stylesheet" href="mediadash.css">
+    <script src="https://kit.fontawesome.com/6f0d27632f.js" crossorigin="anonymous"></script>
     <title>Dashoboard</title>
 </head>
 <body>
@@ -14,15 +15,17 @@
         <div class="info-header">
             <div class="logo">
                 <h3>Comercial Alves</h3>
-                <i class="fa fa-user-circle" aria-hidden="true"></i>
+               
                 
             </div>
             <div class="icons-header"></div>
-                <span class="sr-only">(Lupa)</span>
+               <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+               <a href=""><i class="fa fa-user-circle" aria-hidden="true"></i></a>
         </div>
-        <div style="align-items: center;">
-                <span class="sr-only">(Mensagem)</span>
-                <span class="sr-only">(Sinhinho)</span>
+        <div style="align-items: center;" class="info-header2">
+                <i class="fa-solid fa-message"></i>
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-bars"></i>
                 <img style="width: 40px; border-radius: 70px;" src="comercial.png">
         </div>
     </header>
@@ -31,78 +34,82 @@
 
     <section class="main">
         <div class="sidebar">
-            <h3>Formulários e Tabelas</h3>
-            <a class="sidebar-action" href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>(CASA)Relatorios</a>
-            <a href="#">(CASA)Formulário</a>
-            <a href="#">(CASA)Tabela</a>
-            <a href="#">(CASA)Relatórios</a>
+            <h3><i class="fa-solid fa-house"></i>Formulários e Tabelas</h3>
+            <a class="sidebar-action" href="#"><i class="fa fa-file" aria-hidden="true"></i>Relatorios</a>
+            <a href="#"><i class="fa fa-wpforms" aria-hidden="true"></i>Formulário</a>
+            <a href="#"><i class="fa fa-table" aria-hidden="true"></i>Tabela</a>
+            <a href="#"><i class="fa fa-file" aria-hidden="true"></i>Relatórios</a>
             <br/>
             <hr>
             <h3>Gráficos e Mapas</h3>
-            <a href="#">(CASA)Gráfico</a>
-            <a href="#">(CASA)Mapas</a>
-            <a href="#">(CASA)Páginas</a>
-            <a href="#">(CASA)Relatorios</a>
+            <a href="#"><i class="fas fa-chart-bar"></i>Gráfico</a>
+            <a href="#"><i class="fa fa-file" aria-hidden="true"></i>Mapas</a>
+            <a href="#"><i class="fa fa-file" aria-hidden="true"></i>Páginas</a>
+            <a href="#"><i class="fa fa-file" aria-hidden="true"></i>Relatorios</a>
             <br/>
             <hr><!--Isso faz cria uma borda-->
         </div><!--sidebar-->
         <div class="content">
             <div class="titulo-secao">
                 <h2>Dashboard Sale</h2>
+                
                 <br/>
                 <div class="separator"></div>
                 <br/>
-                <p><i class="fa fa-user-circle" aria-hidden="true"></i>(CASA)/ Dashboard Dados</p>
+                <p><i class="fa fa-user-circle" aria-hidden="true"></i>/ Dashboard Dados</p>
             </div>
 
             <div class="box-info">
                 <div style="background:linear-gradient(45deg, #ff5370, #ff869a)" class="box-info-single">
                     <div class="info-text">
-                        <h3>Faturamento</h3>
+                        
+                        <h3><i class="fa-solid fa-circle-dollar"></i>Faturamento</h3>
                         <p>R$ $.0000</p>
                     </div>
-                    <i class="fa fa-user-circle" aria-hidden="true"></i>(MONEY-CHECK-DOLLAR)
+                    
                 </div>
             </div>
             
             <div class="box-info">
                 <div style="background:linear-gradient(45deg, #4099FF, #73B4FF)"class="box-info-single">
                     <div class="info-text">
-                        <h3>CMD (Custo de Mercadorias Compradas)</h3>
+                        <h3>CMC (Custo de Mercadorias Compradas)</h3>
                         <p>R$ $.000</p>
                     </div>
-                    <i class="fa fa-user-circle" aria-hidden="true"></i>(MONEY)
+                    
                 </div>
             </div>
 
             <div class="box-info">
                 <div style="background:linear-gradient(45deg, #2ED8B6, #59E0C5)" class="box-info-single">
                     <div class="info-text">
-                        <h3>Despesas Totais</h3>
+                        
+                        <h3><i class="fa fa-credit-card" aria-hidden="true"></i>Despesas Totais</h3>
                         <p>R$ $00,00</p>
                     </div>
-                    <i class="fa fa-user-circle" aria-hidden="true"></i>(MONEY)
+                    
                 </div>
             </div>
 
             <div class="box-info">
                 <div style="background:linear-gradient(45deg, #ffc065,#ffc065)" class="box-info-single">
                     <div class="info-text">
-                        <h3>Lucro líquido</h3>
+                        <h3><i class="fa-solid fa-dollar-sign"></i>Lucro líquido</h3>
                         <p>R$ $00,00</p>
                     </div>
-                    <i class="fa fa-user-circle" aria-hidden="true"></i>(MONEY)
+                    
                 </div>
             </div>
 
             <div class="feed">
                 <div class="feed-single">
                     <div class="feed-text"></div>
-                    <div class="circle-icon"><i class="fa fa-user-circle" aria-hidden="true"></i>(FA-BELL)</div>
+                    <div class="circle-icon">(FA-BELL)</div>
                     <span>Tutorial Novo</span>
                 </div>
                 <div class="feed-time">
                     <h3>30 minutes ago</h3>
+                    <i class="fa-solid fa-cart-shopping"></i>
                 </div>
             </div>
 
