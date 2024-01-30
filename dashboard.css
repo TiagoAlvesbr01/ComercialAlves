@@ -146,7 +146,7 @@ header {
     background-color: rgb(245,245,245);
     padding: 20px;
     display: block;
-    box-shadow: 10px;
+    
 }
 
 .titulo-secao {
@@ -178,11 +178,11 @@ header {
     margin-top: 10px;
     display: inline-block;
     justify-content: space-between;
-    padding: 20px;
+    padding: px;
 }
 
 .box-info:hover {
- color: #333;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.452);
 }
 
 .box-info-single {
@@ -201,10 +201,14 @@ header {
 
 .feed {
     margin:20px;
-    background-color: white;
+    background-color: lightgray;
     border-radius: 10px;
-    width: 100%;
+    width: 30%;
     padding: 20px;
+}
+
+.feed:hover {
+    background-color: #444;
 }
 
 .feed-single {
